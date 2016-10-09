@@ -159,6 +159,7 @@ with:
 ~~~~~
 
 PS 1: Although with these changes, the minisat can also be compiled successfully on Linux.
+
 PS 2: Another repository <https://github.com/jasax/Minisat-2.2.0-for-windows> do similar work, i.e., compiling minisat-2.2.0 on windows, but it uses mingw instead of visual studio.
 
 Thanks for your reading.
