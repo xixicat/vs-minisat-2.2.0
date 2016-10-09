@@ -12,16 +12,20 @@ I attempted to find a recent minisat version for windows and
 didn't found it. Then, I googled an approach to compile minisat-2.2.0 using
 Visual Stidio from the link <https://groups.google.com/forum/#!topic/minisat/61QrnOg07d4>.
 All steps are arranged as below:
+
 1. Download minisat from the website <https://github.com/niklasso/minisat> 
  or <http://minisat.se> and extract extract the files.
+
 2. Open visual studio (I'm working with 2015, butI did it for 2012, 2010 and 2008 as 
 well). Create an empty Win32 Console Application:
+
      + File -> New -> Project Win32 Console Application 
      + Location -> the location of the project I'll use "Location" (we will 
 need later) 
      + Name -> I will use "Minisat2" 
      + Ok -> Next 
-     + Choose "Empty Project", Finish 
+     + Choose "Empty Project", Click Finish 
+
 3. Copy mtl, core, simp, utils directories to Location/Minisat2/minisat/. 
  From now we will work with visual studio: 
     + Add all header and cc files to the project
