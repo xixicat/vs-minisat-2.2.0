@@ -67,7 +67,7 @@ with:
 #   include <zlib.h> 
 #   include <sys/resource.h> 
 #endif 
-~~~~~cpp
+~~~~~
 
 and replace: 
 ~~~~~cpp
@@ -116,7 +116,7 @@ mem_used);
 After: 
 ~~~~~cpp
 signal(SIGINT, SIGINT_exit); 
-~~~~~cpp
+~~~~~
 add: 
 ~~~~~cpp
 #ifndef _MSC_VER 
